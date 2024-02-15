@@ -48,3 +48,7 @@ searchBox.addEventListener("keypress", function(event){
         searchButton.click();
     }
 })
+
+window.onload = function() {
+    checkWeather("Kaunas");
+}
